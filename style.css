@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=MuseoModerno:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding-top: 100px;
+    background: #000;
+}
+.netflix{
+    width: 140px;
+    height: 250px;
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(90deg, #b1060e 0,#b1060e 50px,transparent 50px,
+    transparent 90px,#b1060e 90px,#b1060e 140px);
+}
+.netflix::before,
+.netflix::after{
+    content: "";
+    display: block;
+    position: absolute;
+}
+.netflix::before{
+    width: 50px;
+    height: 250px;
+    top: 0;
+    left: 45px;
+    background: #e50914;
+    transform: skewX(19.6deg);
+    box-shadow: 0 0 30px #000;
+}
+.netflix::after{
+    width: 190px;
+    height: 25px;
+    top: 245px;
+    left: -25px;
+    border-radius: 50%;
+    background: #000;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background: #000;
+    text-align: center;
+  }
+  .footer p {
+  text-decoration: none;
+  color: #fff;
+  }
+  .footer a {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+    color: red;
+  }
