@@ -14,12 +14,14 @@ body{
     background: linear-gradient(90deg, #b1060e 0,#b1060e 50px,transparent 50px,
     transparent 90px,#b1060e 90px,#b1060e 140px);
 }
+
 .netflix::before,
 .netflix::after{
     content: "";
     display: block;
     position: absolute;
 }
+
 .netflix::before{
     width: 50px;
     height: 250px;
